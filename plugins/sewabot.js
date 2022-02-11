@@ -11,8 +11,8 @@ let handler = async(m, { conn }) => {
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Pulsa : 085730903853
-GoPay: 085730903853
+Pulsa : 6283817161861
+Dana: 6283817161861
 `.trim()
     const button = {
         buttonText: 'List Harga',
@@ -33,4 +33,4 @@ handler.tags = ['main']
 handler.command = /^(sewa)$/i
 handler.help = ['sewa']
 module.exports = handler
-//R-Txzy
+//IkyBot
